@@ -31,7 +31,7 @@ int main (int argc, char** argv){
 int col(int k){
     //l = length
     int l = 0;
-    while (k >= 1 && k <= 1000000000){
+    while (k >= 1 && k <= 100000000){
         //printf("%d\n", l);
         if(k == 1 || k == 0){
             l++;
