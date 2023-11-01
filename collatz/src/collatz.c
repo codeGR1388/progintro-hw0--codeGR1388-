@@ -11,7 +11,6 @@ int main (int argc, char** argv){
     int end = atoi(argv[2]);
     int max_length = 0;
     if(start <= 0 || end <= 0 || end <= start){
-        printf("Invalid arguments");
         return 0;
     }
     for (int i = start; i <= end; i++)
